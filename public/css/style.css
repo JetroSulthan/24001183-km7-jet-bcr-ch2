@@ -1,0 +1,685 @@
+body{
+    background-color: white;
+}
+
+
+
+/* ----MAIN SECTION---- */
+
+.header .button-header{
+    background-color: #5CB85F !important;
+    color: white !important;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.header .img {
+    width: 704px;
+    height: 407px;
+}
+
+.button-regist{
+    background-color: #5CB85F !important;
+    color: white !important;
+    border-radius: 2px;
+}
+
+.navbar{
+    background: #F1F3FF !important; 
+    padding-top: 24px;
+    position: absolute;
+}
+
+.logo {
+    height: 34px;
+    width: 100px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 136px;
+}
+
+.main{
+    column-gap: 37px;
+    row-gap: 37px;
+    width: 100%;
+    background-color: #F1F3FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .container-fluid .offcanvas{
+    margin-right: 136px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #5CB85F;  
+}
+
+.header{
+    background: #F1F3FF;
+    width: 100%;
+    padding-left: 136px;
+}
+
+.header .title{
+    width: 568px;
+    height: 108px;
+}
+
+
+
+
+
+/* ----OUR SERVICE SECTION---- */
+.main-service {
+    margin-top: 100px;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.main-service .title-service {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    width: 468px;
+}
+
+.main-service .fill-service {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    width: 468px;
+}
+
+.main-service .displayed > img {
+    width: 459px;
+    height: 428px;
+}
+
+.main-service .wrap .wraps > img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+/* ----WHY US SECTION---- */
+
+.why-us{
+    margin: 0 auto;
+    width: 1168px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+.why-us .title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.why-us .fill {
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.why-us .card-wrap {
+    gap: 32px;
+    flex-direction: row;
+}
+
+.why-us .card-wrap .card {
+    padding: 24px;
+    width: 268px;
+    height: 196px;
+}
+
+.why-us .card-wrap .card > img {
+    margin-bottom: 16px;
+}
+
+.why-us .card-wrap .card .title-card {
+    font-weight: 700;
+    font-size: 16 px;
+    line-height: 24px;
+}
+
+.why-us .card-wrap .card .fill-card {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+/* ----TESIMONIAL SECTION---- */
+
+.testimonial {
+    margin: 0 auto;
+    width: 832px;
+    height: 382px;
+    margin-top: 100px;
+}
+
+.testimonial .top {
+    gap: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.testimonial .top .title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.testimonial .top .fill{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.testimonial .carousel {
+    background-color: #F1F3FF;
+    width: 832px;
+    height: 270px;
+    /* justify-content: center; */
+    align-content: center;
+}
+
+.testimonial .carousel .carousel-inner .carousel-item {
+    gap: 40.37px;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial .carousel .carousel-inner .carousel-item > img {
+    height: 80px;
+}
+
+.testimonial .carousel .carousel-inner .carousel-item .fill {
+    font-size: 14px;
+    width: 415px;
+}
+
+.testimonial .carousel .carousel-inner .carousel-item .fill > img {
+    width: 80px;
+}
+
+
+/* ----GETTING STARTED SECTION---- */
+
+.get-start {
+    width: 1168px;
+    height: 326px;
+    margin: 0 auto;
+    background-color: #0d28a6;
+    border-radius: 13px;
+    margin-top: 156px;
+    color: white;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.get-start .fill {
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.get-start .fill .title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.get-start .fill .desc{
+    font-size: 14px;
+    font-weight: 100;
+    width: 468px;
+    text-align: center;
+    align-self: center;
+}
+
+.get-start .button-get-start {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: #5CB85F;
+    color: white !important;
+    border-radius: 2px;
+    width: 140px;
+    height: 36px;
+}
+
+
+/* -----FAQ SECTION---- */
+
+.faq {
+    width: 1168px;
+    margin: 0 auto;
+    margin-top: 100px;
+    flex-direction: row;
+}
+
+.faq .faq-left {
+    width: 500px;
+}
+
+.faq .faq-left .title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.faq .faq-left .fill {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.faq .faq-right {
+    width: 668px;
+    gap: 16px;
+}
+
+
+/* ----FOOTER SECTION---- */
+
+.footer {
+    margin: 0 auto;
+    width: 1141px;
+    height: 128px;
+    margin-top: 150px;
+    gap: 86px;
+    flex-direction: row;
+}
+
+.footer .location {
+    width: 268px;
+}
+
+.footer .social > img {
+    width: 224px;
+    margin-top: 16px;
+}
+
+.footer .corporate {
+    width: 268px;
+}
+
+.footer .corporate > img {
+    width: 100px;
+    margin-top: 16px;
+}
+
+@media ( max-width : 768px ) {
+
+    /* ----MAIN SECTION---- */
+
+    .header .d-flex.flex-row{
+        flex-direction: column !important;
+    }
+
+    .header .button-header{
+        background-color: #5CB85F !important;
+        color: white !important;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 2px;
+    }
+
+    .header .col-5 {
+        width: auto;
+    }
+
+    .button-regist{
+        background-color: #5CB85F !important;
+        color: white !important;
+        border-radius: 2px;
+    }
+
+    .navbar{
+        background: #F1F3FF !important; 
+        padding-top: 24px;
+        position: absolute;
+    }
+
+    .logo {
+        height: 34px;
+        width: 100px; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin-left: 16px;
+    }
+
+    .main{
+        gap: 37px;
+        width: 360px;
+        background-color: #F1F3FF;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar .container-fluid .offcanvas{
+        margin-right: 136px;
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: #5CB85F;  
+    }
+
+    .header{
+        background: #F1F3FF;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .header .lead {
+        width: 328px;
+    }
+
+    .header .img {
+        width: 100%;
+        height: 199px;
+        margin-top: 16px;
+        padding-left: 16px;
+    }
+
+    .header .title{
+        width: 328px;
+        height: 108px;
+    }
+
+    /* ----OUR SERVICE SECTION---- */
+    .main-service {
+        margin-top: 100px;
+        justify-content: center;
+        gap: 24px;
+        align-items: center;
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .main-service .title-service {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        width: 328px;
+    }
+
+    .main-service .fill-service {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        width: 328px;
+    }
+
+    .main-service .displayed > img {
+        width: 252px;
+        height: 228px;
+    }
+
+    .main-service .wrap .wraps >img {
+        width: 24px;
+        height: 24px;
+    }
+
+
+
+    /* ----WHY US SECTION---- */
+
+    .why-us{
+        margin: 0 auto;
+        width: 328px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .why-us .title {
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .why-us .fill {
+        font-weight: 100;
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .why-us .card-wrap {
+        gap: 32px;
+        flex-direction: column;
+    }
+
+    .why-us .card-wrap .card {
+        padding: 24px;
+        width: 328px;
+        height: 196px;
+    }
+
+    .why-us .card-wrap .card > img {
+        margin-bottom: 16px;
+    }
+
+    .why-us .card-wrap .card .title-card {
+        font-weight: 700;
+        font-size: 16 px;
+        line-height: 24px;
+    }
+
+    .why-us .card-wrap .card .fill-card {
+        font-weight: 100;
+        font-size: 14px;
+    }
+
+    /* ----TESIMONIAL SECTION---- */
+
+    .testimonial {
+        margin: 0 auto;
+        width: 360px;
+        height: 382px;
+        margin-top: 100px;
+    }
+
+    .testimonial .top {
+        gap: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .testimonial .top .title{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    .testimonial .top .fill{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    .testimonial .carousel {
+        background-color: #F1F3FF;
+        width: 360px;
+        height: 392px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    
+
+    .testimonial .carousel .carousel-control-prev > img {
+        height: 24px !important;
+        width: 9px !important;
+        margin-left: -9px;
+        margin-top: -250px;
+    }
+
+    .testimonial .carousel .carousel-control-next > img {
+        height: 24px !important;
+        width: 9px !important;
+        margin-top: -250px;
+    }
+
+    .testimonial .carousel .carousel-inner .carousel-item {
+        gap: 24px;
+        width: 328px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+    }
+
+    .testimonial .carousel .carousel-inner .carousel-item .rate {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testimonial .carousel .carousel-inner .carousel-item > img {
+        height: 80px;
+    }
+
+    .testimonial .carousel .carousel-inner .carousel-item .fill {
+        font-size: 14px;
+        width: 264px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial .carousel .carousel-inner .carousel-item .fill > img {
+        width: 80px;
+        margin-bottom: 24px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+
+    /* ----GETTING STARTED SECTION---- */
+
+    .get-start {
+        width: 328px;
+        height: 400px;
+        margin: 0 auto;
+        background-color: #0d28a6;
+        border-radius: 13px;
+        margin-top: 156px;
+        color: white;
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .get-start .fill {
+        align-items: center;
+        margin-bottom: 56px;
+    }
+
+    .get-start .fill .title{
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 16px;
+        width: 212px;
+    }
+
+    .get-start .fill .desc{
+        font-size: 14px;
+        font-weight: 100;
+        width: 212px;
+        text-align: center;
+        align-self: center;
+    }
+
+    .get-start .button-get-start {
+        font-size: 14px;
+        font-weight: 700;
+        background-color: #5CB85F;
+        line-height: 20px;
+        color: white !important;
+        border-radius: 2px;
+        width: 140px;
+        height: 36px;
+    }
+
+
+    /* -----FAQ SECTION---- */
+
+    .faq {
+        width: 360px;
+        margin: 0 auto;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .faq .faq-left {
+        width: 328px;
+    }
+
+    .faq .faq-left .title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    .faq .faq-left .fill {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    .faq .faq-right {
+        width: 328px;
+        gap: 16px;
+        font-size: 14px;
+    }
+
+    .accordion-header {
+        width: 280px;
+    }
+
+    .accordion-header .accordion-button {
+        width: 280px;
+    }
+
+    button.accordion-button.collapsed {
+        width: 320px;
+    }
+
+
+    /* ----FOOTER SECTION---- */
+
+    .footer {
+        margin: 0 auto;
+        width: 360px;
+        margin-top: 60px;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer .features {
+        font-weight: 500;
+    }
+
+    .footer .location {
+        width: 268px;
+    }
+
+    .footer .social > img {
+        width: 224px;
+        gap: 16px;
+    }
+
+    .footer .corporate {
+        width: 268px;
+        margin-top: 16px;
+    }
+
+    .footer .corporate > img {
+        width: 100px;
+    }
+}

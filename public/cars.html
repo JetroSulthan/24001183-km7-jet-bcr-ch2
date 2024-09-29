@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="author" content="Sabrina" />
+        <meta name="description" content="Lorem ipsum dolor sit amet" />
+        <meta
+            name="viewport"
+            content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
+        />
+        <title>Binar: Challenge 04</title>
+
+        <!-- Example CSS -->
+        <link href="/public/css/cars.css" rel="stylesheet" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <section class="landing-page">
+            <div class="container">
+                <nav
+                    class="navbar navbar-expand-lg"
+                    aria-label="Offcanvas navbar large"
+                >
+                    <div class="container-fluid">
+                        <div class="blue-box"></div>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar2"
+                            aria-controls="offcanvasNavbar2"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div
+                            class="offcanvas offcanvas-end text-bg-dark"
+                            tabindex="-1"
+                            id="offcanvasNavbar2"
+                            aria-labelledby="offcanvasNavbar2Label"
+                        >
+                            <div class="offcanvas-header bg-white">
+                                <h3 class="text-black">BCR</h3>
+                                <button
+                                    type="button"
+                                    class="btn-close btn-close-black"
+                                    data-bs-dismiss="offcanvas"
+                                    aria-label="Close"
+                                ></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul
+                                    class="nav nav-pills navbar-nav justify-content-end flex-grow-1 pe-3 gap-3"
+                                >
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#our-services"
+                                            >Our Services</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#why-us"
+                                            >Why Us</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >Testimonial</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            aria-current="page"
+                                            href="#"
+                                            >FAQ</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="button-general nav-link active px-3"
+                                        >
+                                            Register
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="main">
+                <div class="left-side">
+                    <div class="text">
+                        <p class="title">
+                            Sewa & Rental Mobil Terbaik di kawasan Jember
+                        </p>
+                        <p class="description">
+                            Selamat datang di Binar Car Rental. Kami menyediakan
+                            mobil kualitas terbaik dengan harga terjangkau.
+                            Selalu siap melayani kebutuhanmu untuk sewa mobil
+                            selama 24 jam.
+                        </p>
+                    </div>
+                </div>
+                <div class="right-side d-flex justify-content-end">
+                    <img src="images/assets/img_car.png" alt="BCR.png" />
+                </div>
+            </div>
+        </section>
+
+        <section class="search">
+            <div class="search--main">
+                <div class="type-driver">
+                    <label for="driver">Tipe Driver</label>
+                    <select name="driver" id="driver" class="input-cars">
+                        <option value="false" disabled selected id="driverPlaceholder">Pilih Tipe Driver</option>
+                        <option value="1">Dengan Sopir</option>
+                        <option value="2">Tanpa Sopir (Lepas Kunci)</option>
+                    </select>
+                </div>
+                <div class="date">
+                    <label for="date">Tanggal</label>
+                    <input type="date" class="input-cars" name="date" id="date" placeholder="Pilih Tanggal">
+                </div>
+                <div class="time">
+                    <label for="time">Waktu Jemput/Ambil</label>
+                    <select name="time" id="time" class="input-cars">
+                        <option value="" disabled selected>Pilih Waktu</option>
+                        <option value="08:00">08:00 &nbsp;&nbsp;&nbsp;WIB</option>
+                        <option value="09:00">09:00 &nbsp;&nbsp;&nbsp;WIB</option>
+                        <option value="10:00">10:00 &nbsp;&nbsp;&nbsp;WIB</option>
+                        <option value="11:00">11:00 &nbsp;&nbsp;&nbsp;WIB</option>
+                        <option value="12:00">12:00 &nbsp;&nbsp;&nbsp;WIB</option>
+                    </select>                  
+                </div>
+                <div class="passenger">
+                    <label for="passenger">Jumlah Penumpang</label>
+                    <select name="passenger" id="passenger" class="input-cars">
+                        <option value="" disabled selected>Pilih Jumlah Penumpang</option>
+                        <option value="2">2 Orang</option>
+                        <option value="4">4 Orang</option>
+                        <option value="5">5 Orang</option>
+                        <option value="6">6 Orang</option>
+                        <option value="7">7 Orang</option>
+                        <option value="8">8 Orang</option>
+                    </select>
+                </div>
+                <div class="search-car">
+                    <button type="submit" id="load-btn" class="search-car-button button-general  nav-link active">Cari Mobil</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="cars">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-11 ">
+                        <div class="row" id="cars-container">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="footer-main">
+                <div class="footer-main--address description">
+                    <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+                    <p>binarcarrental@gmail.com</p>
+                    <p>081-233-334-808</p>
+                </div>
+                <div class="footer-main--navigate description">
+                    <p>Our services</p>
+                    <p>Why Us</p>
+                    <p>Testimonial</p>
+                    <p>FAQ</p>
+                </div>
+                <div class="footer-main--contact description">
+                    <p>Connect with us</p>
+                    <div class="footer-main--contact--image">
+                        <img src="images/assets/list item.png" alt="" />
+                    </div>
+                </div>
+                <div class="footer-main--copyright description">
+                    <p>Copyright Binar 2022</p>
+                    <div class="blue-box"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Example Javascript -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+        <script type="text/javascript" src="scripts/binar.js"></script>
+        <script type="text/javascript" src="scripts/app.example.js"></script>
+        <script type="text/javascript" src="scripts/car.example.js"></script>
+        <script type="text/javascript" src="scripts/main.example.js"></script>
+        <script src="./scripts/cars.js" type="module"></script>
+    </body>
+</html>
