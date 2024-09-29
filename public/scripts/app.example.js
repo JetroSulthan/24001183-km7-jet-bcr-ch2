@@ -1,6 +1,5 @@
 class App {
   constructor() {
-    this.clearButton = document.getElementById("clear-btn");
     this.loadButton = document.getElementById("load-btn");
     this.carContainerElement = document.getElementById("cars-container");
     this.driver = document.getElementById("driver");
@@ -19,7 +18,7 @@ class App {
   runFilter = async () => {
     this.clear();
     if (this.mandatoryCheck()) {
-        await this.loadFilter();
+        await this.proccesFilter();
         this.run();
     } else {
       
@@ -52,24 +51,19 @@ class App {
     Car.init(cars);
   }
 
-  async loadFilter() {
+  async proccesFilter() {
     const cars = await Binar.listCars((car) => {
-        const dateValidate = new Date(car.availableAt).getTime();
-        const date = new Date(
-            `${this.date.value} ${this.pickUp.value}`
-        ).getTime();
-        const checkWaktu = dateValidate >= date;
-        const availableAt =
-            this.driver.value === "1" ? car.available : true;
-        const notAvailableAt =
-            this.driver.value === "2" ? !car.available : true;
-        const passenger =
-            this.passenger.value !== ""
-                ? car.capacity >= parseInt(this.passenger.value)
-                : true;
+      const carAvailableAt = new Date(car.availableAt).getTime();
+      const dateSelect = new Date(`${this.date.value} ${this.pickUp.value}`).getTime();
+      const validDate = carAvailableAt >= dateSelect;
+      const driverAvailable = this.driver.value === "1" ? car.available : true;
+      const driverNotAvailable = this.driver.value === "2" ? !car.available : true;
+      const capacityCar = this.passenger.value !== ""
+      ? car.capacity >= parseInt(this.passenger.value)
+      : true;
 
-        return availableAt && notAvailableAt && checkWaktu && passenger;
-    });
+      return validDate && driverAvailable && driverNotAvailable && capacityCar;
+  });
 
     Car.init(cars);
 }
